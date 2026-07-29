@@ -195,6 +195,12 @@ img.zoomable:hover {
   text-align: center;
 }
 
+.qr-section h2 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 0.75rem;
+}
+
 .qr-img {
   width: 160px;
   height: 160px;
@@ -271,4 +277,19 @@ img.zoomable:hover {
 
 body.no-scroll {
   overflow: hidden;
+}
+
+@media print {
+  .hero, .btn-download, .site-footer {
+    display: none !important;
+  }
+
+  .parcours-card {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  img.zoomable {
+    cursor: default;
+  }
 }
