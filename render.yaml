@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: marche-adeps-thuin
+    name: marche-adeps-2026
     runtime: static
     buildCommand: ""
     staticPublishPath: .
