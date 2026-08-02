@@ -176,7 +176,7 @@ def build():
 
     story.append(KeepTogether(parcours_block(
         "Parcours 20 km", None,
-        "19,03 km", "+210 m", "-209 m", "5h19",
+        "20,3 km", "+250 m", "-249 m", "5h19",
         "map-20km.jpg", "profil-20km.jpg",
         "La plus longue et la plus vallonnée des trois boucles : elle pousse jusqu'aux bois de "
         "la Grattière et de l'Ermitage au nord-est avant de retrouver les bois de Reumont, "
